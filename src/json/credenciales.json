@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "bry-project-296202",
+  "private_key_id": "eeec41c3a7b167aa1c9c1a558c50819c4da68804",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCGz6Us9R+TURNs\n6jKlMhZdJdrUd3iqOoB3cj2qFQ6Tq1z1CEUCcAV9rm70/LI2/pZaz+TEOR1ED3m3\nCWCW54vOO3duGdylJu537+6S3AfuQYr+Bofx02lCDvmXcx8+uANBwkrbtXZwEdTh\nfZbDELIifbC4/NPh3CrD3GFSPniqTpIcrDQ8E4w/uelFKyfbZZRVVwg5HLLU12/U\ncCVlxQVW6wzHoT4PbhJSIUqnWjiSqD+udJbu9LZjAtmToVtjo7VH3hBmba+9tISi\ndxNRlAtPaiMs2D/U3Ra3kskDBiOQ4CiEFxgFre0UTpCAiBoxLofVRKnPRmIM/qTh\nj5vj2BWXAgMBAAECggEAIvWH7O+n/4jf07er6IDjocYmSECvDt3a4J7EdO2++PZQ\nRc6eLrKkCeKJLYi2ImLE1MniliwFddfZhWiuHpPvAk0TfH7CZCWDY6DZqkXa3KMs\nixFggYqEWjgN64NUD+yiE5Rx2yXkj81f+hWaWf1jZGRZxq7xtzlj8aSdrDk9C1Sy\nW1bMxU7nrb6q87QEQPc6F3fMbHYz35q78aQClg2FITWOSJ9tI/IBIhbmaq+dZc0A\nxy4szDZu0lkI6YSyjqHvFKUN4onspRVbomoSVbE8PqCDEapB8Hqra4KHmMAP8i6z\nH1aCnrzXUsbmq832KG4qe25vc7RQakwrX98EVIUkaQKBgQC9M+0d6niXpHbnZCLp\nUn4l9sdm/i6Xev3ffLVPo2CcU75DB7DzzbAioNLjuccYqRsoPi5emOD1TLQJubXE\noKJaFrX7bb6M1jGyfXdzwRHurpKYfRV0AC1FWeTzFCMyo046owHIHY0f0U9leXzj\n/Cg5ToVhKo8rtEd7q7pfJhvqfQKBgQC2Z9FTvr5S/4R961nbje2LwyuQ9TzxX2JM\nv4vk/MK/pS9bQhMPQ3T72ORZYJjkgvq6b250T/Fk+oiLovH9WkNaR424hPDieosc\nI38jNLBqzwO2N3nV9RBI0JjtIFgjR+EsIpV0s9oIobnmhjacCzv6er43TbLjKHWF\nL5dDljtoowKBgG6bsa5AiblVG3IQl1xBrp+xEkeCp2hFLa9+b1ycTXl2d48mKuuM\nvsCvtjoNPHiNO+Qd3evNgg3Fhqb822eU5PS3vDG9qZ0aBzmqoa+ZGkun4Ommjmkf\nRVf6wp7ckesjjzM2Ym9D32HPcpQHHt0FZ9qArfbs84AAR53j+fNwCvfdAoGBAJ4N\nWTl6dwoN8+z0CJmQ4nuPMunZReRUZSXhd8OELO/Inz8xArjgF7a+GidD51diEwWG\n1qucNavs1nJAT/TayK+qfqebMercijtompqT5iW2mR3D9iMpxOGDNm+J7jUr7HXE\nxcIosU13bVDNjPYrWd5Riw76mX3xqdstAKIExBeHAoGAZlXG3gSoaOK5NOCl7JD/\nGiCXNzC4MJtvTyVYWrVVLgl+6saDdl88RFw+CRSKccL96PcAIEp1/41Wk3hLiyWq\nwr+YplP9L//E2l6gc3qYtPxpGGkFnAsRqnorvUw21mvHEjTk7amR6GBIKVgTsj7/\nH7lqQ02GvpgJudi5cK4U/cE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "googlesheet@bry-project-296202.iam.gserviceaccount.com",
+  "client_id": "107668133204802421988",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/googlesheet%40bry-project-296202.iam.gserviceaccount.com"
+}

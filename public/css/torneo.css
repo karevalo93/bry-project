@@ -1,0 +1,85 @@
+html {
+    min-height: 100%;
+    min-width: 100%;
+    position: relative;
+}
+
+header {
+    background: #0029fa;
+    color: #ffffff;
+    height: 110px;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.container-fluid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 3fr));
+    grid-gap: 10px;
+    max-width: 100%;
+}
+body {
+    background-image: url("https://files.lafm.com.co/assets/public/styles/image_631x369/public/2020-02/clash_0.jpg?itok=DnQZ04OH");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    height: 700px;
+}
+
+footer {
+    background: gray;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.container-fluid {
+    justify-items: center;
+    align-items: center;
+}
+
+.person {
+    background: red;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.cuartos {
+    background: rgb(213, 248, 14);
+    height: 400px;
+    width: 80%;
+}
+
+.cuartos-a {
+    grid-column: 1 ;
+    grid-row: 5;
+}
+
+.cuartos-b {
+    grid-column: 5;
+    grid-row: 5;
+}
+.semi-final {
+    background: rgb(213, 248, 14);
+    height: 250px;
+}
+
+.semi-final-b {
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.semi-final-a {
+    grid-column: 4;
+    grid-row: 5;
+}
+
+.final {
+    grid-column: 3;
+    grid-row: 5;
+    background: rgb(213, 248, 14);
+    height: 180px;
+}

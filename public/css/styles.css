@@ -1,0 +1,61 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+header {
+    background: #0029fa;
+    color: #ffffff;
+    height: 110px;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    grid-gap: 20px;
+}
+
+.torneo {
+    background: #c32424;
+    height: 300px;
+    grid-column: 1 / 7;
+    grid-row: 5;
+}
+
+.sorteo {
+    background: #1d42e6;
+    height: 300px;
+    grid-column: 7 / 13;
+    grid-row: 5;
+}
+
+.img-copa {
+    width: 400px;
+    padding: 0;
+}
+
+.img-sorteo {
+    width: 400px;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://files.lafm.com.co/assets/public/styles/image_631x369/public/2020-02/clash_0.jpg?itok=DnQZ04OH");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    height: 700px;
+}
+
+footer {
+    background: gray;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
