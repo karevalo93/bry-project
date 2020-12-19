@@ -35,53 +35,54 @@
     <body>
         <header>
             <h1>Brygaming</h1>
-
-            <button onclick="randomNames()"></button>
         </header>
         <div class="container-fluid">
             <div class="cuartos cuartos-a">
-            {{#each registros}}
-
-                <div class="person per-1">{{this.name}}</div>
+                {{#each arrayNames}}
+                <div class="person per-1">
+                    <div class="photo"></div>
+                    <br>
+                    <h6>{{this}}</h6>
+                    <button>pass</button>
+                </div>
+                <br><br>
                 {{!-- <br />
                 <div class="person per-2">Nombre de invocador</div>
                 <br /><br /><br />
                 <div class="person per-3">Nombre de invocador</div>
                 <br />
                 <div class="person per-4">Nombre de invocador</div> --}}
-
-            {{/each}}
+                {{/each}}
             </div>
 
             <div class="cuartos cuartos-b">
-                <div class="person per-5">Nombre de invocador</div>
+                <div class="person per-5"><div class="photo"></div><br>invocador<br><button>pass</button></div>
                 <br />
-                <div class="person per-6">Nombre de invocador</div>
+                <div class="person per-6"><div class="photo"></div><br>invocador<br><button>pass</button></div>
                 <br /><br /><br />
-                <div class="person per-7">Nombre de invocador</div>
+                <div class="person per-7"><div class="photo"></div><br>invocador<br><button>pass</button></div>
                 <br />
-                <div class="person per-8">Nombre de invocador</div>
+                <div class="person per-8"><div class="photo"></div><br>invocador<br><button>pass</button></div>
             </div>
+            
 
             <div class="semi-final semi-final-b">
-                <div class="person semi-1">Nombre de invocador</div>
+                <div class="person semi-1"><div class="photo"></div><br>invocador<br><button>pass</button></div>
                 <br /><br /><br /><br /><br /><br />
-                <div class="person semi-2">Nombre de invocador</div>
+                <div class="person semi-2"><div class="photo"></div><br>invocador<br><button>pass</button></div>
             </div>
             <div class="semi-final semi-final-a">
-                <div class="person semi-3">Nombre de invocador</div>
+                <div class="person semi-3"><div class="photo"></div><br>invocador<br><button>pass</button></div>
                 <br /><br /><br /><br /><br /><br />
-                <div class="person semi-4">Nombre de invocador</div>
+                <div class="person semi-4"><div class="photo"></div><br>invocador<br><button>pass</button></div>
             </div>
 
             <div class="final">
-                <div class="person final-1">Nombre de invocador</div>
+                <div class="person final-1"><div class="photo"></div><br>invocador<br><button>pass</button></div>
                 <br /><br /><br />
-                <div class="person final-2">Nombre de invocador</div>
+                <div class="person final-2"><div class="photo"></div><br>invocador<br><button>pass</button></div>
             </div>
         </div>
-
-        <footer></footer>
     </body>
     <script type="text/javascript" src="./js/app.js"></script>
 </html>

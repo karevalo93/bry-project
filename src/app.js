@@ -1,9 +1,12 @@
 const path = require('path')
 const express = require('express')
 const hbs = require('hbs')
-const { getNames } = require('../controllers/google.controller')
+const bodyParser = require('body-parser')
+const torneoRouter = require('./routers/torneo')
+require('./db/mongoose')
 
 const app = express()
+const port = process.env.PORT || 3000
 
 // Define paths for Express config
 const publicDirectoryPath = path.join(__dirname, '../public')
@@ -14,14 +17,15 @@ app.set('view engine', 'hbs')
 app.set('views', viewPath)
 hbs.registerPartials(partialsPath)
 
+app.use( bodyParser.json() );       // to support JSON-encoded bodies
+app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
+  extended: true
+})); 
 // Setup static directory serve
 app.use(express.static(publicDirectoryPath))
-
-//routes
-app.get('/torneo', getNames)
+app.use(torneoRouter)
 
 
-
-app.listen(3000, () => {
-    console.log('Servidor all right')
+app.listen(port, () => {
+    console.log('Server is up on port: ' + port)
 })

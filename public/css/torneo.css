@@ -20,11 +20,7 @@ header {
     max-width: 100%;
 }
 body {
-    background-image: url("https://files.lafm.com.co/assets/public/styles/image_631x369/public/2020-02/clash_0.jpg?itok=DnQZ04OH");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+
     text-align: center;
     height: 700px;
 }
@@ -42,15 +38,23 @@ footer {
 }
 
 .person {
-    background: red;
-    height: 50px;
+    align-content: center;
+    text-align: center;
+    height: 200px;
     border: 1px solid black;
+}
+.photo {
+    margin-left: 28px;
+    margin-top:  10px;
+    background: rgb(114, 114, 114);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
 }
 
 .cuartos {
-    background: rgb(213, 248, 14);
-    height: 400px;
-    width: 80%;
+    height: 100%;
+    width: 60%;
 }
 
 .cuartos-a {
@@ -63,8 +67,8 @@ footer {
     grid-row: 5;
 }
 .semi-final {
-    background: rgb(213, 248, 14);
     height: 250px;
+    width: 160px;
 }
 
 .semi-final-b {
@@ -80,6 +84,8 @@ footer {
 .final {
     grid-column: 3;
     grid-row: 5;
-    background: rgb(213, 248, 14);
     height: 180px;
+    width: 160px;
 }
+
+
